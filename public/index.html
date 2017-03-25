@@ -34,7 +34,7 @@
 
 </head>
 
-<body id="page-top" onLoad="checkStart('vid');">
+<body id="page-top" onLoad="checkStart('vid');" >
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -67,6 +67,41 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+    <!--<video src="img/header.mp4" id="vid" type="video/mp4" loop>
+        </video>
+        <script>
+            function inViewPort (elem) {
+                //First get the scroll y position (how far the user scrolled down)
+                var scrollY = document.body.scrollTop;
+                //Now get the height of the viewport
+                var screenH=document.body.clientHeight;
+                //Also get the y position of the element
+                var yPos=elem.offsetTop;
+                //And now calculate the maximal y position for elem when it is still visible
+                var maxY=scrollY+screenH;
+        
+                if (yPos>scrollY && yPos<maxY) {
+                //It is in the users viewport
+                return true;
+                } else {
+                //It isn't in the users viewport
+                return false;
+                }
+            }
+        
+            function startVideo (videoName) {
+                var elem = document.getElementById(videoName);
+                if (inViewPort(elem)) {
+                elem.load();
+                elem.play();
+                } else if (!elem.ended) {
+                setTimeout("startVideo('"+videoName+"');", 100);
+                }
+            }
+        </script>-->
+
+
 
     <header>
         <div class="header-content">
@@ -101,26 +136,25 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Real Estate
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Olathe, KS
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Site Mapping
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Bath, U.K.
                                 </div>
                             </div>
                         </div>
@@ -132,10 +166,100 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Sporting
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Bristol, U.K.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6 mobileHidden">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Site Mapping
+                                </div>
+                                <div class="project-name">
+                                    Bath, U.K.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6 mobileHidden">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    City Mapping
+                                </div>
+                                <div class="project-name">
+                                    Weston-SUper-Mare, U.K.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6 mobileHidden">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Leisure
+                                </div>
+                                <div class="project-name">
+                                    Shawnee Mission, KS
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6 mobileHidden">
+                    <a href="img/portfolio/fullsize/7.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/7.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Leisure
+                                </div>
+                                <div class="project-name">
+                                    Shawnee Mission, KS
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6 mobileHidden">
+                    <a href="img/portfolio/fullsize/8.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/8.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Views
+                                </div>
+                                <div class="project-name">
+                                    Val D'isére, FR
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6 mobileHidden">
+                    <a href="img/portfolio/fullsize/9.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/9.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Site Mapping
+                                </div>
+                                <div class="project-name">
+                                    Bath, U.K.
                                 </div>
                             </div>
                         </div>
@@ -212,8 +336,8 @@
             </div>
         </div>
     </section>
-            <video src="img/portfolio/thumbnails/1.mp4" id="vid" type="video/mp4" loop>
-            </video>
+            <video src="img/center.mp4" id="vid" type="video/mp4" loop>
+            </video>    
             <script>
                 function inViewPort (elem) {
                     //First get the scroll y position (how far the user scrolled down)
