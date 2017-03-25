@@ -1,6 +1,5 @@
 {
   "projects": {
-    "staging": "drone-site",
-    "default": "middleofthemapmedia"
+    "default": "middleofthemapmedia-1de4d"
   }
 }
