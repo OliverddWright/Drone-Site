@@ -73,7 +73,10 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#packages">Packages</a>
+                        <a class="page-scroll" href="#packages">Tutorials</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#packages">Products</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -87,7 +90,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">We can cut clips, but we prefer to amaze your customers!</h1>
+                <h1 id="homeHeading">We create and our own motion graphics and tailor them to your product to ensure what you receive is entirely unique.</h1>
                 <hr>
                 <p style="text-shadow: -1px 0 #F05F40, 0 1px #F05F40, 0px 0 #F05F40, 0 0px #F05F40;"></p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
@@ -99,26 +102,34 @@
         <div class="container">
             <div class="row">
                 <div class=" text-center">
-                    <h2 class="section-heading">About Video Editing</h2>
+                    <h2 class="section-heading">About Cinematography, Tutorials, & Our Products</h2>
                     <hr class="light">
-                    <p class="text-faded"><br>Middle Of The Map Media rose from a passion to create. We're constantly looking for new ways to make your work stand out whether that be in the copyright free music we use, the transitions between clips, or the color grading, you're work WILL stand out.<br><br>
-                    With over 1000 hours of video editing experience, we're more than capable of delivering just your vision, and exceed expectations in creating a masterpiece you've only seen in movies.</p>
-                    <div style="display:inline-block">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yxYm-Nd9sGE" frameborder="0" allowfullscreen></iframe>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/y_6YjjxNp-k" frameborder="0" allowfullscreen></iframe>
-                    </div>
+                    <p class="text-faded"><br>Middle Of The Map Media rose from daily vloging. The desire to create on a daily basis generated a thirst to make our products stand out from the norm. <br><br>
+                    With over 1000 hours of video editing experience, we're more than capable of delivering your vision, and exceed expectations in creating a masterpiece you've only seen at the movies.</p>
                     <br><br>
-                    <a href="#packages" class="page-scroll btn btn-default btn-xl sr-button">CHOOSE YOUR PACKAGE!</a>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">WATCH THE TUTORIALS!</a>
                 </div>
             </div>
         </div>
     </section>
 
+
+
+
+    <div style="display:inline-block">
+
+    </div>
+
+
+
+
+
+
     <section id="packages">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Video Editing Package</h2>
+                    <h2 class="section-heading">Video Editing Tutorials</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -127,49 +138,69 @@
             <div class="row">
                 <div class="col-lg-12 col-md-6 text-center">
                     <div class="service-box">
-                        <img src="img/videoEditLogo.jpg" alt="DJI OSMO+" width="35%" style="height:15%">
-                        <h3>Let's Create A Deal</h3>
-                        <p class="text-muted">We only have one package and it's our best package and arguably my favorite to work on. Come with ideas or leave it to us but either way, you'll end up with a product your customers will be proud to share!<br><br>
-                        For every minute of video output you want, we'll charge just $45.<br><br>
-                        Have an idea to create a 2 minute promotional video for your business or product? That'll be just $90.<br><br>
-                        <a href="mailto:oliver@middleofthemapmedia.com">Contact Us</a> to create your perfect package.</p>
+                        <h3>Search This PLaylist</h3>
                     </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLYIvl5GgPsoYiy8nsodc2NcfvZYGY0fmy" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-12 col-md-6 text-center">
+                <div class="service-box">
+                    <a href="https://www.youtube.com/channel/UCsJ4MpO_2mJJP3_OnEto0aA?sub_confirmation=1" target="_blank" class="btn btn-primary btn-xl page-scroll">Subscribe To The YouTube Channel Here</a>
                 </div>
             </div>
         </div>
     </section>
-            <video src="img/videoEditing.mp4" id="vid" type="video/mp4" loop>
-            </video>    
-            <script>
-                function inViewPort (elem) {
-                    //First get the scroll y position (how far the user scrolled down)
-                    var scrollY = document.body.scrollTop;
-                    //Now get the height of the viewport
-                    var screenH=document.body.clientHeight;
-                    //Also get the y position of the element
-                    var yPos=elem.offsetTop;
-                    //And now calculate the maximal y position for elem when it is still visible
-                    var maxY=scrollY+screenH;
-            
-                    if (yPos>scrollY && yPos<maxY) {
-                    //It is in the users viewport
-                    return true;
-                    } else {
-                    //It isn't in the users viewport
-                    return false;
-                    }
-                }
-            
-                function checkStart (videoName) {
-                    var elem = document.getElementById(videoName);
-                    if (inViewPort(elem)) {
-                    elem.load();
-                    elem.play();
-                    } else if (!elem.ended) {
-                    setTimeout("checkStart('"+videoName+"');", 100);
-                    }
-                }
-            </script>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class=" text-center">
+                    <h2 class="section-heading">Our Motion Graphic Products</h2>
+                    <hr class="light">
+                    <iframe width="100%" height="365" allowtransparency="true" style="border: none;" src="https://sellfy.com/embed/store/full/middlemapmedia"></iframe>
+                    <br><br><br>
+                    <a href="https://www.youtube.com/playlist?list=PLYIvl5GgPsoYiy8nsodc2NcfvZYGY0fmy" class="page-scroll btn btn-default btn-xl sr-button">WATCH THE TUTORIALS!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <video src="img/videoEditing.mp4" id="vid" type="video/mp4" loop>
+    </video>    
+    <script>
+        function inViewPort (elem) {
+            //First get the scroll y position (how far the user scrolled down)
+            var scrollY = document.body.scrollTop;
+            //Now get the height of the viewport
+            var screenH=document.body.clientHeight;
+            //Also get the y position of the element
+            var yPos=elem.offsetTop;
+            //And now calculate the maximal y position for elem when it is still visible
+            var maxY=scrollY+screenH;
+    
+            if (yPos>scrollY && yPos<maxY) {
+            //It is in the users viewport
+            return true;
+            } else {
+            //It isn't in the users viewport
+            return false;
+            }
+        }
+    
+        function checkStart (videoName) {
+            var elem = document.getElementById(videoName);
+            if (inViewPort(elem)) {
+            elem.load();
+            elem.play();
+            } else if (!elem.ended) {
+            setTimeout("checkStart('"+videoName+"');", 100);
+            }
+        }
+    </script>
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
