@@ -76,6 +76,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a class="page-scroll" href="#experience">Experience</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
@@ -83,12 +86,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#pricing">Pricing</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#categories">Categories</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -109,7 +106,7 @@
             </div>
         </div>
     </header>
-    <section id="services">
+    <section id="experience">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center col">
@@ -354,46 +351,46 @@
             </div>
         </div>
     </section>
-            <video src="img/realEstate.mp4" id="vid" type="video/mp4" loop>
-            </video>    
-            <script>
-                function inViewPort (elem) {
-                    //First get the scroll y position (how far the user scrolled down)
-                    var scrollY = document.body.scrollTop;
-                    //Now get the height of the viewport
-                    var screenH=document.body.clientHeight;
-                    //Also get the y position of the element
-                    var yPos=elem.offsetTop;
-                    //And now calculate the maximal y position for elem when it is still visible
-                    var maxY=scrollY+screenH;
-            
-                    if (yPos>scrollY && yPos<maxY) {
-                    //It is in the users viewport
-                    return true;
-                    } else {
-                    //It isn't in the users viewport
-                    return false;
-                    }
-                }
-            
-                function checkStart (videoName) {
-                    var elem = document.getElementById(videoName);
-                    if (inViewPort(elem)) {
-                    elem.load();
-                    elem.play();
-                    } else if (!elem.ended) {
-                    setTimeout("checkStart('"+videoName+"');", 100);
-                    }
-                }
-            </script>
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Ready To Stand Out?</h2>
-                <a href="#contact" class="btn btn-default btn-xl sr-button">LET'S SET THIS UP!</a>
+                <a href="#contact" class="btn btn-default btn-xl sr-button page-scroll">LET'S SET THIS UP!</a>
             </div>
         </div>
     </aside>
+    <video src="img/realEstate.mp4" id="vid" type="video/mp4" loop>
+    </video>    
+    <script>
+        function inViewPort (elem) {
+            //First get the scroll y position (how far the user scrolled down)
+            var scrollY = document.body.scrollTop;
+            //Now get the height of the viewport
+            var screenH=document.body.clientHeight;
+            //Also get the y position of the element
+            var yPos=elem.offsetTop;
+            //And now calculate the maximal y position for elem when it is still visible
+            var maxY=scrollY+screenH;
+    
+            if (yPos>scrollY && yPos<maxY) {
+            //It is in the users viewport
+            return true;
+            } else {
+            //It isn't in the users viewport
+            return false;
+            }
+        }
+    
+        function checkStart (videoName) {
+            var elem = document.getElementById(videoName);
+            if (inViewPort(elem)) {
+            elem.load();
+            elem.play();
+            } else if (!elem.ended) {
+            setTimeout("checkStart('"+videoName+"');", 100);
+            }
+        }
+    </script>
     <section id="contact">
         <div class="container">
             <div class="row">
