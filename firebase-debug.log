@@ -1,0 +1,27 @@
+[debug] [2018-01-11T21:25:18.220Z] ----------------------------------------------------------------------
+[debug] [2018-01-11T21:25:18.223Z] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-01-11T21:25:18.224Z] CLI Version:  3.9.1
+[debug] [2018-01-11T21:25:18.224Z] Platform:     darwin
+[debug] [2018-01-11T21:25:18.224Z] Node Version: v4.4.7
+[debug] [2018-01-11T21:25:18.225Z] Time:         Thu Jan 11 2018 15:25:18 GMT-0600 (CST)
+[debug] [2018-01-11T21:25:18.225Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-11T21:25:18.244Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-11T21:25:18.244Z] > authorizing via signed-in user
+[debug] [2018-01-11T21:25:18.246Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-11T21:25:18.247Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/ly-zie-Sa3SwCKsOwLZoTYkBmmm2wW4dHbhF38iTz_w',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jan 11 2018 15:25:18 GMT-0600 (CST)
+[debug] [2018-01-11T21:25:18.676Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-11T21:25:18.686Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/middleofthemapmedia-1de4d  
+ Thu Jan 11 2018 15:25:18 GMT-0600 (CST)
+[debug] [2018-01-11T21:25:19.486Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-11T21:25:19.487Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/middleofthemapmedia-1de4d/tokens  
+ Thu Jan 11 2018 15:25:19 GMT-0600 (CST)
+[debug] [2018-01-11T21:26:19.851Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-11T21:26:20.290Z] Error: Firebase.authWithCustomToken failed: First argument must be a valid credential (a string).
+[error] 
+[error] Error: An unexpected error has occurred.
